@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Add CSS at the head of HTML file -->
+    <title>Optimised Bubble Sort Exercise</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bubble_css.css">
+    <link rel="stylesheet" href="../../assets/css/common-styles.css">
+</head>
+<body>
+		<!-- Your code goes here-->
+<div class="instruction-box">
+      <button class="collapsible"> Instructions </button>
+      <div class="content">
+        <ul>
+          <li>Read the question below and use the artefact to run iterations.</li> 
+          <li>When you are done, enter the values in the textbox provided and click on the <b>Submit</b> button.</li>
+          <li>Click on the <b>Reset</b> button to start all over with a new set of random numbers</li>
+        </ul> 
+      </div>
+    </div>
+    
+    <div id="wrapper">
+      <div id = "question"></div>
+      <div id="cards"></div>
+      
+      <div id="legend-comment-wrapper">
+        <div  class="comment-box" id="comment-box-smaller">
+          <b>Observations</b>
+          <p id="ins"> </p>
+        </div>
+        
+      </div>
+      <div class="buttons-wrapper">
+        <input class="button-input" type="button" value="New Question" id="new_question" >
+        <input class="button-input" type="button" value="Run an iteration" id="next">
+        <input class="text-box" id="textbox" type="number" placeholder="Difference" />
+        <input class="text-box" id="textbox1" type="number"/ placeholder="Iterations">
+        <input class="button-input" type="button" value="Submit Answer" id = "submit">
+        <input class="button-input" type="button" value="Reset" id="reset">
+      </div>
+      
+    </div>
+
+	<!-- Add JS at the bottom of HTML file --> 
+        <script src="js/optibubble_exercise.js"></script>
+        <script src="../../assets/js/instruction-box.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+{
+  "unit-type": "lu",
+  "label": "Bubble Sort Experiment",
+  "basedir": ".",
+  "units": [
+    {
+      "unit-type": "aim"
+    },
+    {
+      "unit-type": "task",
+      "label": "Overview",
+      "content-type": "video",
+      "source": "overview.md",
+      "target": "overview.html"
+    },
+    {
+      "unit-type": "task",
+      "label": "Recap",
+      "content-type": "video",
+      "source": "recap.md",
+      "target": "recap.html"
+    },
+    {
+      "unit-type": "lu",
+      "label": "Bubble Sort",
+      "basedir": "bubble-sort",
+      "units": [
+        {
+          "unit-type": "aim"
+        },
+       
+	{
+          "unit-type": "task",
+          "label": "Concept",
+          "content-type": "video",
+          "source": "basic-concept.md",
+          "target": "basic-concept.html"
+        },
+        {
+          "unit-type": "task",
+          "label": "Algorithm",
+          "content-type": "video",
+          "source": "bsalgo.md",
+          "target": "bsalgo.html"
+        },
+        {
+          "unit-type": "task",
+          "label": "Demo",
+          "content-type": "simulation",
+          "source": "simulation/bsdemo.html",
+          "target": "bsdemo.html"
+        },
+        {
+          "unit-type": "task",
+          "label": "Practice",
+          "content-type": "simulation",
+          "source": "simulation/bspractice.html",
+          "target": "bspractice.html"
+        },
+	{
+          "unit-type": "task",
+          "label": "Exercise",
+          "content-type": "simulation",
+          "source": "simulation/bsexercise.html",
+          "target": "bsexercise.html"
+        }
+      
+      ]
+    },
+    {
+      "unit-type": "lu",
+      "label": "Optimized Bubble Sort",
+      "basedir": "optimized-bubblesort",
+      "units": [
+        {
+          "unit-type": "aim"
+        },
+	
+        {
+          "unit-type": "task",
+          "label": "Optimization Technique",
+          "content-type": "video",
+          "source": "optimization-technique.md",
+          "target": "optimization-technique.html"
+        },
+        {
+          "unit-type": "task",
+          "label": "Demo",
+          "content-type": "simulation",
+          "source": "simulation/opt-bs-demo.html",
+          "target": "opt-bs-demo.html"
+        },
+	{
+          "unit-type": "task",
+          "label": "Practice",
+          "content-type": "simulation",
+          "source": "simulation/opt-bs-practice.html",
+          "target": "opt-bs-practice.html"
+        },
+	{
+          "unit-type": "task",
+          "label": "Exercise",
+          "content-type": "simulation",
+          "source": "simulation/opt-bs-exercise.html",
+          "target": "opt-bs-exercise.html"
+        }
+      ]
+    },
+        {
+      "unit-type": "lu",
+      "label": "Analysis",
+      "basedir": "analysis",
+      "units": [
+        {
+          "unit-type": "aim"
+        },
+	{
+          "unit-type": "task",
+          "label": "Overview",
+          "content-type": "video",
+          "source": "overview.md",
+          "target": "overview.html"
+        },
+        {
+          "unit-type": "task",
+          "label": "Time and Space Complexity",
+          "content-type": "video",
+          "source": "time-and-space-complexity-of-bubble-sort.md",
+          "target": "time-and-space-complexity-of-bubble-sort.html"
+        },
+        {
+          "unit-type": "task",
+          "label": "Time and Space Complexity Demo",
+          "content-type": "simulation",
+          "source": "simulation/time-and-space-complexity.html",
+          "target": "time-and-spce-complexity.html"
+        },
+        {
+          "unit-type": "task",
+          "label": "Stability of Bubble Sort",
+          "content-type": "video",
+          "source": "stability-of-bubble-sort.md",
+          "target": "stability-of-bubble-sort.html"
+        },
+	{
+          "unit-type": "task",
+          "label": "Comparison with other Algorithms",
+          "content-type": "video",
+          "source": "comparison-with-other-algorithms.md",
+          "target": "comparison-with-other-algorithms.html"
+        }
+      ]
+    },
+       
+    {
+      "unit-type": "task",
+      "label": "Further Readings/References",
+      "content-type": "text",
+      "source": "further-reading-and-references.md",
+      "target": "further-reading-and-references.html"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Add CSS at the head of HTML file -->
+   <title>Time complexity of Optimized Bubble Sort</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bubble_css.css">
+    <link rel="stylesheet" href="../../assets/css/common-styles.css">
+</head>
+<body>
+		<!-- Your code goes here-->
+<div class="instruction-box">
+      <button class="collapsible"> Instructions </button>
+      <div class = "content">
+        <ul>
+          <li>Click on the <b>Start</b> button to start the demo.</li>
+          <li>Move the slider to adjust the speed of the demo.</li> 
+          <li>Keep an eye on the number of comparisons.</li>
+          <li>Use the dropbox to view demo for randomised, sorted, and reverse sorted arrays!</li>
+        </ul> 
+      </div>
+    </div>
+     
+    <div id="wrapper">
+      <div class="buttons-wrapper" id="typeSelect">
+        <p>Select type of array : &nbsp
+          <select id = "order">
+            <option value="random" selected="selected">Random</option>
+            <option value="sorted">Sorted</option>
+            <option value="reversesorted">Reverse Sorted</option>
+          </select>
+        </p>
+      </div>
+      
+      <div id="cards"></div>
+      
+      <div id="legend-comment-wrapper">
+        <div  class="comment-box" id="comment-box-smaller">
+          <b>Observations</b>
+          <p id="ins"></p>
+        </div>
+        
+      </div>
+      <div class="slidecontainer">
+        <p>
+          Min. Speed
+          <input class="slider" type="range" min="100" max="2500" id="interval" value="1500">
+          Max. Speed
+        </p>
+      </div>
+      
+      <div class="buttons-wrapper">
+        <input class="button-input" type="button" value="Start" id="next" onClick="start_sort();" >
+        <input class="button-input" type="button" value="Reset" id="reset">
+        <input class="button-input" type="button" value="Pause" id="pause">
+      </div>
+      
+    </div>
+
+	<!-- Add JS at the bottom of HTML file --> 
+        <script src="js/bubble_time.js"></script>
+        <script src="../../assets/js/instruction-box.js"></script>
+</body>
+</html>
