@@ -5,24 +5,22 @@ on:
     branches:
       - main
     paths:
-      - '.github/labels.yml'
-      - '.github/workflows/labels.yml'
+      - ".github/labels.yml"
+      - ".github/workflows/labels.yml"
 
 jobs:
   labeler:
     runs-on: ubuntu-latest
     steps:
-      -
-        name: Checkout
+      - name: Checkout
         uses: actions/checkout@v2
-      -
-        name: Run Labeler
+      - name: Run Labeler
         uses: crazy-max/ghaction-github-labeler@v3
-    # The following job will delete the script that creates dev and testing branches 
+      # The following job will delete the script that creates dev and testing branches
       - uses: actions/checkout@v2
       - run: |
-          git config --local user.email "admin@vlabs.ac.in"
-          git config --local user.name "vleadadmin"
+          git config --local user.email "pranavasri@live.in"
+          git config --local user.name "vjspranav"
           git checkout main
           git rm -rf .github/workflows/labels.yml
           git commit -m "Label script is deleted."

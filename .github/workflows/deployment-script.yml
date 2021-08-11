@@ -22,8 +22,8 @@ jobs:
           npm install
           npm run build-exp
           cd ../ 
-          git config --local user.email "admin@vlabs.ac.in"
-          git config --local user.name "vleadadmin"
+          git config --local user.email "pranavasri@live.in"
+          git config --local user.name "vjspranav"
           git checkout --orphan gh-pages
           git reset
           git add build/* -f
@@ -31,7 +31,7 @@ jobs:
           git commit -m "https://vjspranav.github.io/${{ github.repository }} click on the link to test your code."
       - uses: ad-m/github-push-action@master
         with:
-          github_token: ${{ secrets.OWNERTOKEN }}
+          github_token: ${{ secrets.OWNERSECRET }}
           force: true
           branch: gh-pages
   # Reference : https://github.com/marketplace/actions/github-push
